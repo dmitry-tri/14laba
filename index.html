@@ -1,0 +1,81 @@
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+</head>
+    <div class="main" id="main">
+      <div class="head">
+        <img class="Avatar" src="https://cdnstatic.rg.ru/uploads/images/2022/11/01/istock-1204374053_017.jpg" />
+        <div class="nameBox">
+          <div class="greetingPhrase">Резюме</div>
+          <div class="yourInfo">
+            <div class="name" onclick="changetext(this)">Трифонов Дмитрий</div>
+            <div class="role" onclick="changetext(this)">Студент СибГУТИ</div>
+          </div>
+        </div>
+        <div class="languagesBox">
+          <div class="title">Языки:</div>
+          <div class="english" onclick="changeLanguage(this)">
+            Английский
+            
+          </div>
+          <div class="russian" onclick="changeLanguage(this)">
+            Русский
+            
+          </div>
+        </div>
+      </div>
+      <div class="body">
+        <div class="expBox">
+          <div class="title">Опыт</div>
+          <div class="exp" onclick="changetext(this)">
+           Знакомство с основами программирования началось в первом семестре обучения на курсе "Введение в программирование", где изучал язык Python. Создал несколько простых проектов.
+<h>Принял участие в нескольких хакатонах, где разработал прототипы приложений за ограниченное время. Один из проектов — мобильное приложение для отслеживания привычек, которое получило приз за лучшее пользовательское взаимодействие.</h>
+
+          </div>
+        </div>
+        <div class="toolsBox">
+          <div class="title">Навыки</div>
+          <div class="tools">
+            <ul>
+              <li onclick="changeLi(this)"><span>C</span></li>
+              <li onclick="changeLi(this)"><span>C++</span></li>
+              <li onclick="changeLi(this)"><span></span>GitHub</li>
+              <li onclick="changeLi(this)"><span>Minecraft</span></li>
+              <li onclick="changeLi(this)"><span>Figma</span></li>
+              <li onclick="changeLi(this)"><span>HTML+CSS+JS</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="foot">
+        <div class="educationBox">
+          <div class="title">Образование</div>
+          <div class="schoolBox">
+            <div class="school" onclick="changetext(this)">МАОУ СОШ №26, г.Мирный Среднее общее</div>
+          </div>
+          <div class="schoolBox">
+            <div class="school" onclick="changetext(this)">СибГУТИ, институт ИВТ, специальность "Программное обеспечение мобильных сетей" 2 курс</div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="interestsBox">
+            <div class="title">Интересы</div>
+            <ul>
+              <li onclick="changeLi(this)"><span>Программирование</span></li>
+              <li onclick="changeLi(this)"><span>Шахматы</span></li>
+              <li onclick="changeLi(this)"><span>Строительство домиков в майнкрафте</span></li>
+              <li onclick="changeLi(this)"><span>Путшествия</span></li>
+            </ul>
+          </div>
+          <div class="contactBox">
+            <div class="title">Контакты</div>
+            <div class="contactText">Номер телефона:</div>
+            <div class="phoneNumber" onclick="changetext(this)">+7(983)215-84-31</div>
+            <div class="contactText">Почта:</div>
+            <div class="email" onclick="changetext(this)">Dima@mail.ru</div>
+          </div>
+        </div>
+      </div>
+      <div class="PDFbutton">
+        <button onclick="captureImage()">Скачать</button>
+      </div>
+    </div>
